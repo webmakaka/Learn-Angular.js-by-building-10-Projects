@@ -14,3 +14,5 @@ http://getbootstrap.com/examples/justified-nav/
 http://plnkr.co/
 
 005 Plunkr Setup  Main Controller - Implementation
+
+006 Fetching Data with http - Basic Design
