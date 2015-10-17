@@ -5,23 +5,17 @@
       <h2>Contact</h2>
       <p>Please email support@computersolutions.fake</p>
       <h3>Locations</h3>
-      <ul class="location">
-          <li>Lynn Location</li>
-          <li>333 Walnut st</li>
-          <li>Linn MA, 01902</li>
-          <li>781-555-555</li>
-      </ul>
-      <ul class="location">
-          <li>Lynn Location</li>
-          <li>333 Walnut st</li>
-          <li>Linn MA, 01902</li>
-          <li>781-555-555</li>
-      </ul>
-      <ul class="location">
-          <li>Lynn Location</li>
-          <li>333 Walnut st</li>
-          <li>Linn MA, 01902</li>
-          <li>781-555-555</li>
-      </ul>
+
+        <div ng-repeat="location in locations">
+
+              <ul class="location">
+                  <li>{{location.name}}</li>
+                  <li>{{location.street_address}}</li>
+                  <li>{{location.city}} {{location.state}} {{location.zip}}</li>
+                  <li>{{location.phone}}</li>
+              </ul>
+
+        </div>
+
     </div>
   </div>

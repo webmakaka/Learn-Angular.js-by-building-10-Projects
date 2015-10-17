@@ -21,21 +21,21 @@ app.config(['$routeProvider', function($routeProvider){
     .otherwise({redirectTo:'/main'});
 }]);
 
-app.controller('MainCtrl', ['$scope', function($scope){
 
-}]);
-
-app.controller('ServicesCtrl', ['$scope', '$http', function($scope, $http){
-    //console.log("ServicesCtrl");
-
+app.controller('MainCtrl', ['$scope', '$http', function($scope, $http){
     $http.get('services.json').then(function(response){
-        // console.log("ServicesCtrl 1");
-    console.log(response.data);
-    //     // console.log(response.data);
-    //     // $scope.services = response.data;
+        $scope.services = response.data;
     });
 }]);
 
-app.controller('ContactCtrl', ['$scope', function($scope){
+app.controller('ServicesCtrl', ['$scope', '$http', function($scope, $http){
+    $http.get('services.json').then(function(response){
+        $scope.services = response.data;
+    });
+}]);
 
+app.controller('ContactCtrl', ['$scope', '$http', function($scope, $http){
+    $http.get('locations.json').then(function(response){
+        $scope.locations = response.data;
+    });
 }]);

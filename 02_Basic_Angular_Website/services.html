@@ -1,38 +1,19 @@
-  <!-- Example row of columns -->
   <div class="row">
     <div class="col-lg-12">
       <h2>Services</h2>
-      <div class="row service">
-          <div class="col-md-2">
-              <img src="img/computer-icon.png">
-          </div>
-          <div class="col-md-10">
-              <h3>Hardware Repair</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut euismod sapien. Ut mattis turpis ac lobortis porttitor. Nullam vitae enim quis odio tincidunt aliquam. Quisque viverra dui in tortor congue, quis rutrum ligula tempor. Maecenas quis iaculis tellus. Aliquam mollis elementum ipsum, a auctor quam elementum a. Proin semper et eros vitae porttitor. Aliquam finibus quam ac nulla vehicula, vel scelerisque velit rhoncus. In eu dapibus orci. Sed blandit arcu metus, eu fermentum risus vestibulum et. Quisque venenatis elit at metus semper blandit. Vivamus ac dui fringilla libero vulputate rhoncus. Sed luctus egestas sem quis bibendum. In hac habitasse platea dictumst.</p>
-              <a href="contact.html" class="btn btn-primary">Contact Us</a>
-          </div>
-      </div>
+        <div ng-repeat="service in services">
 
-      <div class="row service">
-          <div class="col-md-2">
-              <img src="img/computer-icon.png">
-          </div>
-          <div class="col-md-10">
-              <h3>Hardware Repair</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut euismod sapien. Ut mattis turpis ac lobortis porttitor. Nullam vitae enim quis odio tincidunt aliquam. Quisque viverra dui in tortor congue, quis rutrum ligula tempor. Maecenas quis iaculis tellus. Aliquam mollis elementum ipsum, a auctor quam elementum a. Proin semper et eros vitae porttitor. Aliquam finibus quam ac nulla vehicula, vel scelerisque velit rhoncus. In eu dapibus orci. Sed blandit arcu metus, eu fermentum risus vestibulum et. Quisque venenatis elit at metus semper blandit. Vivamus ac dui fringilla libero vulputate rhoncus. Sed luctus egestas sem quis bibendum. In hac habitasse platea dictumst.</p>
-              <a href="contact.html" class="btn btn-primary">Contact Us</a>
-          </div>
-      </div>
+              <div class="row service">
+                  <div class="col-md-2">
+                      <img ng-src="img/{{service.image}}">
+                  </div>
+                  <div class="col-md-10">
+                      <h3>{{service.name}}</h3>
+                      <p>{{service.description}}</p>
+                      <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                  </div>
+              </div>
 
-      <div class="row service">
-          <div class="col-md-2">
-              <img src="img/computer-icon.png">
-          </div>
-          <div class="col-md-10">
-              <h3>Hardware Repair</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut euismod sapien. Ut mattis turpis ac lobortis porttitor. Nullam vitae enim quis odio tincidunt aliquam. Quisque viverra dui in tortor congue, quis rutrum ligula tempor. Maecenas quis iaculis tellus. Aliquam mollis elementum ipsum, a auctor quam elementum a. Proin semper et eros vitae porttitor. Aliquam finibus quam ac nulla vehicula, vel scelerisque velit rhoncus. In eu dapibus orci. Sed blandit arcu metus, eu fermentum risus vestibulum et. Quisque venenatis elit at metus semper blandit. Vivamus ac dui fringilla libero vulputate rhoncus. Sed luctus egestas sem quis bibendum. In hac habitasse platea dictumst.</p>
-              <a href="contact.html" class="btn btn-primary">Contact Us</a>
-          </div>
-      </div>
+        </div>
     </div>
   </div>

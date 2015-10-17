@@ -16,3 +16,7 @@ http://plnkr.co/
 005 Plunkr Setup  Main Controller - Implementation
 
 006 Fetching Data with http - Basic Design
+
+007 Fetching Data with http - Implementation
+
+![Application](/img/02.png?raw=true)
