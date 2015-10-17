@@ -8,3 +8,9 @@
 003 Creating the HTML CSS
 
 http://getbootstrap.com/examples/justified-nav/
+
+004 Plunkr Setup  Main Controller - Basic Architecture
+
+http://plnkr.co/
+
+005 Plunkr Setup  Main Controller - Implementation
