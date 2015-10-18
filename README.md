@@ -20,3 +20,31 @@ http://plnkr.co/
 007 Fetching Data with http - Implementation
 
 ![Application](/img/02.png?raw=true)
+
+
+<br/>
+
+### 03 Web Template Store
+
+009 Angular Seed Setup
+
+https://github.com/angular/angular-seed.git
+
+    $ git clone --depth=1 https://github.com/angular/angular-seed.git
+    $ npm install
+    $ bower install
+
+    package.json
+
+    i replace
+    "start": "http-server -a localhost -p 8000 -c-1",
+
+    on
+
+    "start": "http-server -p 8080 -c-1",
+
+
+    $ npm start
+
+
+    http://localhost:8080/app/
