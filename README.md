@@ -48,3 +48,10 @@ https://github.com/angular/angular-seed.git
 
 
     http://localhost:8080/app/
+
+
+010 Creating Views - Basic Design
+
+    $ bower install --save bootstrap
+
+http://getbootstrap.com/examples/starter-template/
