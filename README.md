@@ -59,3 +59,10 @@ http://getbootstrap.com/examples/starter-template/
 011 Creating Views - Implementation
 
 012 Get Display Templates
+
+013 Get Display Templates - Final Steps
+
+
+![Application](/img/03-1.png?raw=true)
+
+![Application](/img/03-2.png?raw=true)

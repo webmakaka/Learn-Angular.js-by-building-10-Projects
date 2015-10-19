@@ -7,7 +7,13 @@
         "price": 9.99,
         "images": [
             {
-                "name": "blue.jpg"
+                "name": "blue1.jpg"
+            },
+            {
+                "name": "blue2.jpg"
+            },
+            {
+                "name": "blue3.jpg"
             }
         ]
     },
@@ -19,7 +25,7 @@
         "price": 8.99,
         "images": [
             {
-                "name": "red.jpg"
+                "name": "red1.jpg"
             }
         ]
     },
@@ -31,7 +37,7 @@
         "price": 7.99,
         "images": [
             {
-                "name": "green.jpg"
+                "name": "green1.jpg"
             }
         ]
     }
