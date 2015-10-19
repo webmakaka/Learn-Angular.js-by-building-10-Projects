@@ -55,3 +55,5 @@ https://github.com/angular/angular-seed.git
     $ bower install --save bootstrap
 
 http://getbootstrap.com/examples/starter-template/
+
+011 Creating Views - Implementation
