@@ -2,12 +2,13 @@
     <a href="#/templates">Go Back</a>
     <br/><br/>
     <div class="col-md-4">
-        <img class="img-full" src="img/blue.jpg">
+        <img class="img-full" src="img/{{mainImage}}">
     </div>
     <div class="col-md-8">
-        <h3>Blue Template</h3>
-        <p>Description</p>
-        <h4>$19.99</h4>
+        <h3>{{template.name}}</h3>
+        <p>{{template.description}}</p>
+        <p>Type: {{template.type}}</p>
+        <h4>{{template.price}}</h4>
         BUY IT
     </div>
 </div>

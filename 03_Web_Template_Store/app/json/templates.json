@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Blue Theme",
+        "description": "description1",
+        "type": "html5",
+        "price": 9.99,
+        "images": [
+            {
+                "name": "blue.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Red Theme",
+        "description": "description2",
+        "type": "html5",
+        "price": 8.99,
+        "images": [
+            {
+                "name": "red.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Green Theme",
+        "description": "description3",
+        "type": "html5",
+        "price": 7.99,
+        "images": [
+            {
+                "name": "green.jpg"
+            }
+        ]
+    }
+]
