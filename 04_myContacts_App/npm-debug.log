@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App',
+5 verbose install   [ 'bower',
+5 verbose install     'http-server',
+5 verbose install     'jasmine-core',
+5 verbose install     'karma',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'karma-firefox-launcher',
+5 verbose install     'karma-jasmine',
+5 verbose install     'karma-junit-reporter',
+5 verbose install     'protractor',
+5 verbose install     'shelljs' ] ]
+6 info preinstall angular-seed@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping bower@^1.3.1 /projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App
+9 verbose already installed skipping http-server@^0.6.1 /projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App
+10 verbose already installed skipping jasmine-core@^2.3.4 /projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App
+11 verbose already installed skipping karma@~0.12 /projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App
+12 verbose already installed skipping karma-chrome-launcher@^0.1.12 /projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App
+13 verbose already installed skipping karma-firefox-launcher@^0.1.6 /projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App
+14 verbose already installed skipping karma-jasmine@^0.3.5 /projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App
+15 verbose already installed skipping karma-junit-reporter@^0.2.2 /projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App
+16 verbose already installed skipping protractor@^2.1.0 /projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App
+17 verbose already installed skipping shelljs@^0.2.6 /projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App
+18 silly resolved []
+19 info build /projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App
+20 verbose linkStuff [ false,
+20 verbose linkStuff   false,
+20 verbose linkStuff   false,
+20 verbose linkStuff   '/projects/dev/Learn-Angular.js-by-building-10-Projects' ]
+21 info linkStuff angular-seed@0.0.0
+22 verbose linkBins angular-seed@0.0.0
+23 verbose linkMans angular-seed@0.0.0
+24 verbose rebuildBundles angular-seed@0.0.0
+25 verbose rebuildBundles [ '.bin',
+25 verbose rebuildBundles   'bower',
+25 verbose rebuildBundles   'http-server',
+25 verbose rebuildBundles   'jasmine-core',
+25 verbose rebuildBundles   'karma',
+25 verbose rebuildBundles   'karma-chrome-launcher',
+25 verbose rebuildBundles   'karma-firefox-launcher',
+25 verbose rebuildBundles   'karma-jasmine',
+25 verbose rebuildBundles   'karma-junit-reporter',
+25 verbose rebuildBundles   'protractor',
+25 verbose rebuildBundles   'shelljs' ]
+26 info install angular-seed@0.0.0
+27 info postinstall angular-seed@0.0.0
+28 verbose unsafe-perm in lifecycle true
+29 info angular-seed@0.0.0 Failed to exec postinstall script
+30 error angular-seed@0.0.0 postinstall: `bower install`
+30 error Exit status 1
+31 error Failed at the angular-seed@0.0.0 postinstall script.
+31 error This is most likely a problem with the angular-seed package,
+31 error not with npm itself.
+31 error Tell the author that this fails on your system:
+31 error     bower install
+31 error You can get their info via:
+31 error     npm owner ls angular-seed
+31 error There is likely additional logging output above.
+32 error System Linux 3.19.0-25-generic
+33 error command "/usr/bin/node" "/usr/bin/npm" "install"
+34 error cwd /projects/dev/Learn-Angular.js-by-building-10-Projects/04_myContacts_App
+35 error node -v v0.10.40
+36 error npm -v 1.4.28
+37 error code ELIFECYCLE
+38 verbose exit [ 1, true ]

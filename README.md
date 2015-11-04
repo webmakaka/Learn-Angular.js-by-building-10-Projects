@@ -26,11 +26,13 @@ http://plnkr.co/
 
 ### 03 Web Template Store
 
+Technologies: Angular Seed
+
 009 Angular Seed Setup
 
 https://github.com/angular/angular-seed.git
 
-    $ git clone --depth=1 https://github.com/angular/angular-seed.git
+    $ git clone --depth=1 https://github.com/angular/angular-seed.git .
     $ npm install
     $ bower install
 
@@ -47,7 +49,7 @@ https://github.com/angular/angular-seed.git
     $ npm start
 
 
-    http://localhost:8080/app/
+http://localhost:8080/app/
 
 
 010 Creating Views - Basic Design
@@ -66,3 +68,43 @@ http://getbootstrap.com/examples/starter-template/
 ![Application](/img/03-1.png?raw=true)
 
 ![Application](/img/03-2.png?raw=true)
+
+
+<br/>
+
+### 04 myContacts App
+
+Technologies: Angular Seed, FireBase, Foundation
+
+015 Angular Seed  Firebase Setup
+
+https://www.firebase.com/
+
+App Name: mycontacts  
+App URL: mycontacts-app-1
+
+    $ cd 04_myContacts_App
+    $ git clone --depth=1 https://github.com/angular/angular-seed.git .
+    $ npm install
+    $ bower install
+
+    $ npm install --save-dev firebase
+    $ npm start
+
+<br/>
+
+    package.json
+
+    i replace
+    "start": "http-server -a localhost -p 8000 -c-1",
+
+    on
+
+    "start": "http-server -p 8080 -c-1",
+
+
+http://localhost:8080/app/
+
+    $ bower install --save foundation
+
+    
