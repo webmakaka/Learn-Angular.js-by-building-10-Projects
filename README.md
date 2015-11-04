@@ -106,5 +106,10 @@ App URL: mycontacts-app-1
 http://localhost:8080/app/
 
     $ bower install --save foundation
+    $ bower install --save angularfire
 
-    
+https://www.firebase.com/docs/web/libraries/angular/
+
+    $ npm start
+
+http://localhost:8080/app/#/contacts
