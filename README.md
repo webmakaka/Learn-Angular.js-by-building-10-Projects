@@ -124,3 +124,14 @@ http://localhost:8080/app/#/contacts
 http://localhost:8080/app/#/contacts
 
 018 Edit Display Single Contact - Design
+
+http://localhost:8080/app/#/contacts
+
+019 Edit Display Single Contact - Implementation
+
+http://localhost:8080/app/#/contacts
+
+
+![Application](/img/04-1.png?raw=true)
+
+![Application](/img/04-2.png?raw=true)
