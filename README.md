@@ -113,3 +113,8 @@ https://www.firebase.com/docs/web/libraries/angular/
     $ npm start
 
 http://localhost:8080/app/#/contacts
+
+
+016 Read Create Contacts - Basic Design
+
+http://localhost/app/#/contacts
