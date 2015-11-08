@@ -117,4 +117,8 @@ http://localhost:8080/app/#/contacts
 
 016 Read Create Contacts - Basic Design
 
-http://localhost/app/#/contacts
+http://localhost:8080/app/#/contacts
+
+017 Read Create Contacts - Final Steps
+
+http://localhost:8080/app/#/contacts
