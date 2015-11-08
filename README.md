@@ -122,3 +122,5 @@ http://localhost:8080/app/#/contacts
 017 Read Create Contacts - Final Steps
 
 http://localhost:8080/app/#/contacts
+
+018 Edit Display Single Contact - Design
