@@ -156,8 +156,57 @@ http://localhost:8080/app/#/contacts
 ![Application](/img/03-2.png?raw=true)
 
 
+<br/>
 
-<br/><br/>
+### 04 ngSocial Facebook App
+
+I don't want to programming anything with social networks
+
+May be later
+
+
+
+<br/>
+
+### 05 Job Directory
+
+<strong>Technologies</strong>: MEAN Stack
+
+http://meanjs.org/
+
+
+<br/>
+
+02 Implementing the MEAN Stack
+
+<br/>
+
+    # apt-get install -y mongodb
+    # mkdir -p /data/db
+    # mongod
+
+
+<br/>
+
+    # npm install -g bower
+    # npm install -g grunt-cli
+
+<br/>
+
+    $ cd 05_Job_Directory
+    $ git clone --depth=1 https://github.com/meanjs/mean .
+
+    $ npm install
+
+    $ grunt
+
+http://localhost:3000
+
+
+
+
+
+
 
 ___
 
