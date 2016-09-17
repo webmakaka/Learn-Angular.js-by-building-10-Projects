@@ -1,9 +1,28 @@
-# Learn-Angular.js-by-building-10-Projects
-[Eduonix] Projects in AngularJS - Learn Angular.js by building 10 Projects [ENG, 2015]
+# [Eduonix] Projects in AngularJS - Learn Angular.js by building 10 Projects [ENG, 2015]
 
 <br/>
 
-### 02 Basic Angular Website
+
+
+I'm working on Ubuntu in docker container with debian jessie:
+
+    $ lsb_release -a
+    Description:	Ubuntu 14.04.5 LTS
+    Codename:	trusty
+
+<br/>
+
+    $ docker -v
+    Docker version 1.9.1, build a34a1d5
+
+
+<a href="http://jsdev.org/env/docker/run-container/">How to run docker container for start development</a>
+(If link will not work give me to know about it)
+
+
+<br/>
+
+### 01 Basic Angular Website
 
 003 Creating the HTML CSS
 
@@ -19,12 +38,12 @@ http://plnkr.co/
 
 007 Fetching Data with http - Implementation
 
-![Application](/img/02.png?raw=true)
+![Application](/img/01.png?raw=true)
 
 
 <br/>
 
-### 03 Web Template Store
+### 02 Web Template Store
 
 Technologies: Angular Seed
 
@@ -65,14 +84,14 @@ http://getbootstrap.com/examples/starter-template/
 013 Get Display Templates - Final Steps
 
 
-![Application](/img/03-1.png?raw=true)
+![Application](/img/02-1.png?raw=true)
 
-![Application](/img/03-2.png?raw=true)
+![Application](/img/02-2.png?raw=true)
 
 
 <br/>
 
-### 04 myContacts App
+### 03 myContacts App
 
 Technologies: Angular Seed, FireBase, Foundation
 
@@ -132,6 +151,19 @@ http://localhost:8080/app/#/contacts
 http://localhost:8080/app/#/contacts
 
 
-![Application](/img/04-1.png?raw=true)
+![Application](/img/03-1.png?raw=true)
 
-![Application](/img/04-2.png?raw=true)
+![Application](/img/03-2.png?raw=true)
+
+
+
+<br/><br/>
+
+___
+
+**Marley**
+
+<a href="https://jsdev.org">jsdev.org</a>
+
+email:  
+![Marley](http://img.fotografii.org/a3333333mail.gif "Marley")
