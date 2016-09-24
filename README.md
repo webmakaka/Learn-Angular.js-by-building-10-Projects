@@ -321,6 +321,20 @@ http://localhost:3000/categories/57e67735c08c6bee3d047803
 
 not tested
 
+<br/>
+
+06 Angular Routes Views
+
+    $ cd public/
+    $ bower init
+    $ bower install --save angular
+    $ bower install --save angular-route
+    $ bower install --save bootstrap
+
+
+http://getbootstrap.com/examples/starter-template/
+
+
 
 <br/>
 <br/>
