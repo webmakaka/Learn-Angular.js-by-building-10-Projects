@@ -1,4 +1,4 @@
-c# [Eduonix] Projects in AngularJS - Learn Angular.js by building 10 Projects [ENG, 2015]
+j   c# [Eduonix] Projects in AngularJS - Learn Angular.js by building 10 Projects [ENG, 2015]
 
 <br/>
 
@@ -215,6 +215,37 @@ Not works !!!
 I don't know how to create a new article
 
 ![Application](/img/05-1.png?raw=true)
+
+![Application](/img/05-2.png?raw=true)
+
+project is not ended
+
+<br/>
+
+### 06 KnowledgeBase
+
+<strong>Technologies</strong>: Express, MongoDB
+
+<br/>
+
+02 NodeJS MongoDB Setup.
+
+    # npm install -g nodemon
+    # npm install -g express-generator
+    # npm install -g express-generator
+
+    $ cd 06_KnowledgeBase
+    $ express .
+    $ npm install --save mongodb
+    $ npm install --save mongoose
+
+    $ npm install
+    $ nodemon start
+
+http://localhost:3000/
+
+
+
 
 ___
 
