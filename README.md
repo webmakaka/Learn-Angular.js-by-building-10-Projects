@@ -240,10 +240,30 @@ project is not ended
     $ npm install --save mongoose
 
     $ npm install
+
+
+    # mongo
+    > use knowledgebase
+    > db.createCollection('articles');
+    > db.createCollection('categories');
+
+    > db.categories.insert({name:"Technology"});
+    > db.categories.insert({name:"Education"});
+    > db.categories.insert({name:"Healthcare"});
+    > db.categories.find();
+
+    > db.articles.insert({title:"Article One", category: "Technology", body: "This is the body", date: new Date()});
+    > db.articles.insert({title:"Article Two", category: "Education", body: "This is the body", date: new Date()});
+    > db.articles.insert({title:"Article Three", category: "Education", body: "This is the body", date: new Date()});
+
+    > db.articles.find();
+
+
+<br/>
+
     $ nodemon start
 
 http://localhost:3000/
-
 
 
 
