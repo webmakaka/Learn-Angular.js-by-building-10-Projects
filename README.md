@@ -1,4 +1,4 @@
-# [Eduonix] Projects in AngularJS - Learn Angular.js by building 10 Projects [ENG, 2015]
+c# [Eduonix] Projects in AngularJS - Learn Angular.js by building 10 Projects [ENG, 2015]
 
 <br/>
 
@@ -207,9 +207,14 @@ http://localhost:3000
 
 03 Backend Job API Setup
 
+http://localhost:3000/articles  
+http://localhost:3000/jobs  
+
 Not works !!!
 
+I don't know how to create a new article
 
+![Application](/img/05-1.png?raw=true)
 
 ___
 
