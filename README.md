@@ -270,10 +270,42 @@ http://localhost:3000/
 
 03 Backend GET Routes - Design
 
+http://localhost:3000/articles/
+
 ![Application](/img/06-1.png?raw=true)
 
+<br/>
+
+04 Backend GET Routes - Implementation
+
+http://localhost:3000/articles/57e6782cc08c6bee3d047805/  
+http://localhost:3000/articles/category/Technology/  
+
+<br/>
+
+http://www.lipsum.com/feed/html
+
+<br/>
+
+    # mongo
+
+    > use knowledgebase
+    > db.categories.update({name:"Technology"}, {$set:{description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis eu sem pellentesque rutrum. Nulla nec porttitor velit, in venenatis ante. Donec eget fringilla dolor."}});
+
+    > db.categories.update({name:"Healthcare"}, {$set:{description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis eu sem pellentesque rutrum. Nulla nec porttitor velit, in venenatis ante. Donec eget fringilla dolor."}});
+
+    > db.categories.update({name:"Healthcare"}, {$set:{description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis eu sem pellentesque rutrum. Nulla nec porttitor velit, in venenatis ante. Donec eget fringilla dolor."}});
 
 
+    > db.categories.find().pretty();
+
+<br/>
+
+http://localhost:3000/categories/  
+http://localhost:3000/categories/57e67735c08c6bee3d047803
+
+<br/>
+<br/>
 ___
 
 **Marley**

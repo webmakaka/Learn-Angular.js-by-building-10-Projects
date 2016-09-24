@@ -35,7 +35,7 @@ module.exports.getArticleById = function(id, callback){
 };
 
 // Get Category Articles
-module.exports.getArticleByCategory = function(category, callback){
+module.exports.getArticlesByCategory = function(category, callback){
     var query = {category: category};
     Article.find(query, callback);
 };
