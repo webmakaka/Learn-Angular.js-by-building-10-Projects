@@ -1,9 +1,17 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
+var Article = require('../models/article');
+
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  Article.getArticles(function(err, articles){
+      if(err){
+          console.log(err);
+      }
+
+      res.json(articles);
+
+  });
 });
 
 module.exports = router;

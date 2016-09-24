@@ -228,7 +228,7 @@ project is not ended
 
 <br/>
 
-02 NodeJS MongoDB Setup.
+02 NodeJS MongoDB Setup
 
     # npm install -g nodemon
     # npm install -g express-generator
@@ -264,6 +264,13 @@ project is not ended
     $ nodemon start
 
 http://localhost:3000/
+
+
+<br/>
+
+03 Backend GET Routes - Design
+
+![Application](/img/06-1.png?raw=true)
 
 
 
