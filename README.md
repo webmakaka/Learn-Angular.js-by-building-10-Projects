@@ -1,4 +1,4 @@
-j   c# [Eduonix] Projects in AngularJS - Learn Angular.js by building 10 Projects [ENG, 2015]
+# [Eduonix] Projects in AngularJS - Learn Angular.js by building 10 Projects [ENG, 2015]
 
 <br/>
 
@@ -18,6 +18,16 @@ I'm working on Ubuntu in docker container with debian jessie:
 
 <a href="http://jsdev.org/env/docker/run-container/">How to run docker container for start development</a>
 (If link will not work give me to know about it)
+
+<br/>
+
+    $ node -v
+    v4.5.0
+
+<br/>
+
+    # npm -v
+    2.15.9
 
 
 <br/>
@@ -294,7 +304,7 @@ http://www.lipsum.com/feed/html
 
     > db.categories.update({name:"Healthcare"}, {$set:{description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis eu sem pellentesque rutrum. Nulla nec porttitor velit, in venenatis ante. Donec eget fringilla dolor."}});
 
-    > db.categories.update({name:"Healthcare"}, {$set:{description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis eu sem pellentesque rutrum. Nulla nec porttitor velit, in venenatis ante. Donec eget fringilla dolor."}});
+    > db.categories.update({name:"Education"}, {$set:{description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis eu sem pellentesque rutrum. Nulla nec porttitor velit, in venenatis ante. Donec eget fringilla dolor."}});
 
 
     > db.categories.find().pretty();
@@ -303,6 +313,14 @@ http://www.lipsum.com/feed/html
 
 http://localhost:3000/categories/  
 http://localhost:3000/categories/57e67735c08c6bee3d047803
+
+
+<br/>
+
+05 Backend POST Routes
+
+not tested
+
 
 <br/>
 <br/>

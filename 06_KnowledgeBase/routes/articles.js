@@ -30,4 +30,66 @@ router.get('/category/:category', function(req, res, next) {
   });
 });
 
+router.post('/', function(req, res, next){
+    // Get Form Values
+    var title = req.body.title;
+    var category = req.body.category;
+    var body = req.body.body;
+
+    // Article Object
+    var newArticle = new Article({
+        title: title,
+        category: category,
+        body: body
+    });
+
+    // Create Article
+    Article.createArticle(newArticle, function(err, article){
+        if(err){
+            console.log(err);
+        }
+
+        res.location('/articles');
+        res.redirect('/articles');
+    });
+});
+
+// Update Article
+router.put('/', function(req, res, next){
+    // Get Form Values
+
+    var id = req.body.id;
+    var data = {
+        title: req.body.title,
+        category: req.body.category,
+        body: req.body.body
+    };
+
+    // Create Article
+    Article.updateArticle(id, data, function(err, article){
+        if(err){
+            console.log(err);
+        }
+
+        res.location('/articles');
+        res.redirect('/articles');
+    });
+});
+
+
+// Remove Article
+router.put('/:id', function(req, res, next){
+
+    var id = req.params.id;
+
+    Article.removeArticle(id, function(err, article){
+        if(err){
+            console.log(err);
+        }
+
+        res.location('/articles');
+        res.redirect('/articles');
+    });
+});
+
 module.exports = router;
