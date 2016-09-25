@@ -349,11 +349,15 @@ http://localhost:3000/#/articles/details/1
 
 08 Frontend Data Display - Basic Design
 
-
 http://localhost:3000/#/categories  
 http://localhost:3000/#/articles/category/Technology  
 
+<br/>
 
+09 Frontend Data Display - Final views
+
+http://localhost:3000/#/articles  
+http://localhost:3000/#/articles/details/57e6782cc08c6bee3d047805
 
 
 
