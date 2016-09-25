@@ -335,6 +335,15 @@ not tested
 http://getbootstrap.com/examples/starter-template/
 
 
+<br/>
+
+07 Angular Routes  Views - Final Steps
+
+http://localhost:3000/#/articles  
+http://localhost:3000/#/articles/add  
+http://localhost:3000/#/articles/edit/1  
+http://localhost:3000/#/articles/details/1
+
 
 <br/>
 <br/>
