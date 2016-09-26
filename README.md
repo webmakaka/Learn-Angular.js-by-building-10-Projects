@@ -363,6 +363,19 @@ http://localhost:3000/#/articles/details/57e6782cc08c6bee3d047805
 
 10 Add, Edit  Delete Articles - Initial Steps
 
+<br/>
+
+11 Add, Edit  Delete Articles - Final Points
+
+
+![Application](/img/06-2.png?raw=true)
+
+![Application](/img/06-3.png?raw=true)
+
+![Application](/img/06-4.png?raw=true)
+
+![Application](/img/06-5.png?raw=true)
+
 
 <br/>
 <br/>

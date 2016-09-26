@@ -78,7 +78,7 @@ router.put('/', function(req, res, next){
 
 
 // Remove Article
-router.put('/:id', function(req, res, next){
+router.delete('/:id', function(req, res, next){
 
     var id = req.params.id;
 
