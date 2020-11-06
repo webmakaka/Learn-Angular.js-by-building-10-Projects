@@ -376,14 +376,13 @@ http://localhost:3000/#/articles/details/57e6782cc08c6bee3d047805
 
 ![Application](/img/06-5.png?raw=true)
 
+<br/>
+
+---
 
 <br/>
-<br/>
-___
 
 **Marley**
 
-<a href="https://jsdev.org">jsdev.org</a>
-
-email:  
-![Marley](http://img.fotografii.org/a3333333mail.gif "Marley")
+Any questions in english: <a href="https://jsdev.org/chat/">Telegram Chat</a>  
+Любые вопросы на русском: <a href="https://jsdev.ru/chat/">Телеграм чат</a>
